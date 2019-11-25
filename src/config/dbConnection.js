@@ -10,4 +10,15 @@ let pool = mysql.createPool({
     debug: false
 });
 
+//REMOTE NOT WORKING
+// let pool = mysql.createPool({
+//     connectionLimit: 5,
+//     host: ('db4free.net'),
+//     port: '3306',
+//     user: ('testmysqlbot'),
+//     password: ('rootroot'),
+//     database: 'testmysqlbot',
+//     debug: false
+// });
+
 module.exports = pool;
